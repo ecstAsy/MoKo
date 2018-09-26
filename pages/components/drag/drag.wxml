@@ -1,0 +1,2 @@
+<Drag isShow="true"/>
+<card-intro title="{{title}}" content="{{content}}"/>

@@ -1,0 +1,13 @@
+<view class="tab-click" bind:select="handleTab">
+   <view class='tab '>
+    <block wx:for="{{Tab}}" wx:for-item="tab" wx:key="index">
+      <view class='tab_list' bindtap='handleTab' data-id='{{index+1}}'>
+        {{tab}}
+      </view>
+    </block>
+    <view class="tab_slider" style="width:{{sliderWidth}}px;left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+  </view>
+  <view class='content'>
+    <slot />
+  </view>
+</view>

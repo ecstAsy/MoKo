@@ -1,0 +1,38 @@
+page{
+  background: #fff;
+}
+navigator:hover{
+  background: transparent;
+}
+.toast{
+  width: 90%;
+  padding: 100rpx 5%;
+  font-size: 32rpx;
+  color: #333;
+}
+
+.button_box{
+  width: 100%;
+  margin-top: 50rpx;
+  z-index: 0;
+}
+.button_box button{
+  width: 35%;
+  display: inline-block;
+  height: 88rpx;
+  margin-bottom: 50rpx;
+  line-height: 88rpx;
+  font-size: 32rpx;
+  background: #09a8bc;
+  color: #f5f5f5;
+  border: none;
+  outline: medium;
+  border-radius: 10rpx;
+  margin-left: 10%;
+  text-align: center;
+}
+.button_box button::after{
+  border: none;
+  outline: medium;
+  border-radius: 10rpx;
+}

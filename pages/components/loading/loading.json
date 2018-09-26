@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "loading-slide": "../../../../components/loading/slide/index",
+    "loading-dot": "../../../../components/loading/dot/index",
+    "loading-circle":"../../../../components/loading/circle/index",
+    "loading-circular": "../../../../components/loading/circular/index",
+    "loading-square": "../../../../components/loading/square/index",
+    "Mask":"../../../../components/mask/index",
+    "card-intro": "../../../../components/card/intro/index"
+  }
+}

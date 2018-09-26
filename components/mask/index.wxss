@@ -1,0 +1,16 @@
+.mask{
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  animation: fadeIn 0.5s ease;
+  transition: all 0.3s;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0
+  }
+  to{
+    opacity: 1
+  }
+}

@@ -1,0 +1,15 @@
+.comment-star{
+  width: 80%;
+  padding: 10rpx 10%;
+}
+.comment-star text{
+  font-size: 32rpx;
+  color: #333;
+  vertical-align: middle;
+}
+.comment-star image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 15rpx;
+  vertical-align: middle;
+}

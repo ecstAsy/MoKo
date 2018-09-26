@@ -1,0 +1,81 @@
+
+.custom{
+  width: 180rpx;
+  height: 180rpx;
+  color: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 50rpx auto 0;
+}
+
+.custom_logo{
+  width: 100%;
+  height: 100%;
+  display: block;
+  
+}
+
+.components{
+ width: 90%;
+  padding: 100rpx 5%;
+}
+.component_box{
+  border-radius: 1orpx;
+  margin-bottom: 20rpx;
+}
+.component_content{
+  width: 100%;
+  display: none;
+  animation: fadeIn 0.5s ease;
+}
+.component_content.active{
+  display: block;
+}
+.component,.component_list{
+  width: 90%;
+  padding: 0 5%;
+  height: 88rpx;
+  line-height: 88rpx;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to right,#09a8bc 0%, #27c3d8 100%);
+  z-index: 10;
+}
+.component_list {
+  margin-top: 5rpx;
+}
+.component_name,.component_icon{
+  flex: 1;
+  vertical-align: middle;
+}
+.component_name{
+  text-align: left;
+  
+}
+.component_icon{
+  text-align: right;
+}
+.component_name text{
+   font-size: 32rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #fff;
+}
+.component_name text.active{
+  color: #f8f8f8;
+}
+.component_icon image{
+   width: 40rpx;
+   height: 40rpx;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-30%);
+    z-index: -10;
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0%)
+  }
+}

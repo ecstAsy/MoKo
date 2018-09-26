@@ -1,0 +1,25 @@
+<view class='tab-slide'
+  bind:select="actionTab">
+  <view class='tab '>
+    <block wx:for="{{Tab}}" wx:for-item="tab" wx:key="index">
+      <view class='tab_list {{ActiveId===index?"active":""}}' bindtap='handleTab' data-id='{{index}}'>
+        {{tab}}
+      </view>
+    </block>
+  </view>
+<swiper current="{{ActiveId}}" style="height:{{SystemInfo.windowHeight}}px;"
+        bind:change="switchTab">
+  <swiper-item wx:for="{{[0,1,2,3]}}" wx:key="index">
+    <scroll-view scroll-y style="height:{{SystemInfo.Height}}px"
+                 lower-threshold="90" scroll-with-animation>
+      <view class="content">
+      <slot wx:if="{{ActiveId===index}}" />
+      </view>
+    </scroll-view>
+  </swiper-item>
+</swiper>
+
+
+
+
+</view>

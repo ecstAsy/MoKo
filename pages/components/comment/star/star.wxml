@@ -1,0 +1,5 @@
+<block wx:for="{{Comment}}" wx:for-item="star" wx:key="index">
+  <Star title="{{star.title}}" data-id="{{index}}" bind:select="ActionStar"/>
+</block>
+
+<card-slide title="五星评论" content="点击星评，返回评论的星星Id,根据Id来判断评论的质量（在遍历过程中为每一个点击事件添加flag,以便区分开评论对象。）" />

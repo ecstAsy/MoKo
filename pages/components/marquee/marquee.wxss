@@ -1,0 +1,19 @@
+page{
+  background: rgb(236, 234, 234);
+}
+.marqueeList{
+  width: 90%;
+  padding: 50rpx 5%;
+  margin-bottom: 50rpx;
+  background: #fff;
+}
+
+.marqueeList_title{
+  color: #09a8bc;
+  font-size: 32rpx;
+  margin-bottom: 80rpx;
+}
+
+.marqueeList_demo{
+  position: relative;
+}

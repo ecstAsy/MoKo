@@ -1,0 +1,24 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/components/nav-custom/nav-custom",
+    "pages/components/tab/slide/slide",
+    "pages/components/tab/click/click",
+    "pages/components/card/intro/intro",
+    "pages/components/card/shadow/shadow",
+    "pages/components/loading/loading",
+    "pages/components/mask/mask",
+    "pages/components/comment/star/star",
+    "pages/components/drag/drag",
+    "pages/components/marquee/marquee",
+    "pages/components/model/phone/phone",
+    "pages/components/model/info/info",
+    "pages/components/picker/picker"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#09a8bc",
+    "navigationBarTitleText": "自定义组件库",
+    "navigationBarTextStyle":"white"
+  }
+}

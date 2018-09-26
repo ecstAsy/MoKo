@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "Drag": "../../../components/drag/index",
+    "card-intro": "../../../components/card/intro/index"
+  }
+}

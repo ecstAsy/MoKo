@@ -1,0 +1,5 @@
+<view class="loading_box" wx:if="{{Loading}}">
+  <view class="loading_rotate_cube_parent">
+  <view class="loading_rotate_cube"></view>
+  </view>
+</view>

@@ -1,0 +1,19 @@
+<view class="scope" style='height:{{SystemInfo.Height*0.24}}px'
+    bind:close="onCancel" bind:getInfo="onConfirm">
+    <view class='scope_title' 
+          style='line-height:{{SystemInfo.windowHeight*0.24*0.25}}px'>
+      温馨提示
+    </view>
+    <view class='scope_content'>
+      该小程序需要获取您的基本信息！
+    </view>
+    <view class='scope_footer' >
+      <button style='line-height:{{SystemInfo.windowHeight*0.24*0.3}}px' bindtap='onCancel'>
+        取消
+      </button>
+      <button style='line-height:{{SystemInfo.windowHeight*0.24*0.3}}px'
+               open-type='getUserInfo' bindgetuserinfo="onConfirm" >
+        确认
+      </button>
+    </view>
+  </view>

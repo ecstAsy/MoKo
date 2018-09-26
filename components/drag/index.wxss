@@ -1,0 +1,24 @@
+.drag {
+  width: 100rpx;
+  height: 100rpx;
+  position: fixed;
+  bottom: 20rpx;
+  right: 16rpx;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+.drag image {
+  width: 100%;
+  height: 100%;
+}
+
+.drag button {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}

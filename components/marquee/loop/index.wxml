@@ -1,0 +1,6 @@
+<view class='marquee'>
+   <view class='marquee_text' style='{{orientation}}:{{marqueeDistance2}}px;font-size: {{size}}px;'>
+       <text>{{content}}</text>
+      <text wx:if="{{marquee2copy_status}}" style="margin-left:{{marquee2_margin}}px;">{{content}}</text>
+   </view>
+</view>

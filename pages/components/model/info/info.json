@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "Mask": "../../../../components/mask/index",
+    "model-info": "../../../../components/model/info/index",
+    "card-intro": "../../../../components/card/intro/index"
+  }
+}

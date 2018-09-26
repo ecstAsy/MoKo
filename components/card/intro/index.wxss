@@ -1,0 +1,22 @@
+.card-intro{
+  width: 80%;
+  padding: 50rpx 20rpx;
+  margin: 40rpx auto;
+  background: #f5f5f5;
+  border-radius: 10rpx;
+}
+
+.intro-title{
+  width: 100%;
+  font-size: 32rpx;
+  font-weight: 700;
+  color: #09a8bc;
+  margin-bottom: 50rpx;
+}
+
+.intro-content{
+  width: 100%;
+  text-indent: 50rpx;
+  font-size: 30rpx;
+  color: #09a8bc;
+}

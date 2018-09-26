@@ -1,0 +1,19 @@
+<view class='marqueeList'>
+   <view class='marqueeList_title'>
+      单一滚动效果
+   </view>
+   <view class='marqueeList_demo'>
+       <marquee-single content="{{content}}" orientation="left"/>
+   </view>
+</view>
+
+<view class='marqueeList'>
+   <view class='marqueeList_title'>
+      循环滚动效果
+   </view>
+   <view class='marqueeList_demo'>
+     <marquee-loop content="{{content}}" orientation="left"/>
+   </view>
+</view>
+
+<card-intro title="{{title}}" content="{{content}}"/>

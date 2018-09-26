@@ -1,0 +1,19 @@
+.phoneBtn{
+  width: 80%;
+  background: #09a8bc;
+  color: #fff;
+  height: 88rpx;
+  margin: 100rpx auto;
+  line-height: 88rpx;
+  text-align: center;
+  font-size: 34rpx;
+  outline: medium;
+  border: none;
+  border-radius: 44rpx;
+}
+
+.phoneBtn::after{
+  outline: medium;
+  border: none;
+  border-radius: 44rpx;
+}

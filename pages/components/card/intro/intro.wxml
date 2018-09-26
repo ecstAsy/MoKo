@@ -1,0 +1,3 @@
+<card-intro
+  title="{{title}}"
+  content="{{content}}"/>

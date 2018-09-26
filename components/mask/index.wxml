@@ -1,0 +1,3 @@
+<view class="mask" style='width:{{SystemInfo.windowWidth}}px;height:{{SystemInfo.windowHeight}}px;background:{{background}}' wx:if="{{mask}}" bind:tap="onClose">
+  <slot />
+</view>

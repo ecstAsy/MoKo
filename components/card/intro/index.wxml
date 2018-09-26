@@ -1,0 +1,8 @@
+<view class='card-intro'>
+    <view class='intro-title'>
+       {{title}}
+    </view>
+    <view class='intro-content'>
+       {{content}}
+    </view>
+</view>

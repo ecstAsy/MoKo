@@ -1,0 +1,22 @@
+<view class='draw' bind:close="onClose" bind:code="getPhoneCode" bind:submit="formSubmitPhone">
+    <form bindsubmit="formSubmitPhone">
+      <image class='draw_icon' bindtap='onClose' data-id="phone" src='/images/icon/close.png' />
+      <view class='draw_title'>手机验证</view>
+      <view class='draw_list'>
+        <text class='draw_list_title'>手机号：</text>
+        <view class='input-box'>
+        <input bindinput='Input' data-id="phone" name="phone" type='text' placeholder-class placeholder='请输入手机号' maxlength="11" />
+        </view>
+        
+      </view>
+      <view class='draw_list'>
+        <text class='draw_list_title'>验证码：</text>
+        <view class='input-box'>
+        <input name="code" bindinput='Input' data-id="code" password type="number" placeholder='请输入验证码' placeholder-class/>
+        <button wx:if="{{!isClickCodeBtn}}" class='getCode' bindtap='getPhoneCode'>{{btnTxt}}</button>
+        <text wx:if="{{isClickCodeBtn}}" class='getCodeToast'>{{countdown}}s</text>
+        </view>
+      </view>
+      <button class='draw_btn_confim {{!formData.phone||!formData.code?"active":""}}' formType="submit">提交</button>
+    </form>
+  </view>

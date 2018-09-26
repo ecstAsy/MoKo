@@ -1,0 +1,11 @@
+<view class='button_box' >
+  <block wx:for="{{background}}" wx:for-item="list" wx:key="index">
+    <button data-id="{{index}}" bindtap='action'>{{list.title}}</button>
+  </block>
+</view>
+
+<Mask mask="{{mask}}" background="{{maskColor}}" bind:close="maskClose"/>
+
+<card-intro
+    title="{{title}}"
+    content="{{content}}"/>

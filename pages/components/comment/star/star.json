@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "Star": "../../../../components/comment/star/index",
+    "card-slide": "../../../../components/card/intro/index"
+  }
+}

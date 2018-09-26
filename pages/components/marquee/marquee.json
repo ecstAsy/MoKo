@@ -1,0 +1,7 @@
+{
+  "usingComponents":{
+    "marquee-single":"../../../../components/marquee/single/index",
+    "marquee-loop":"../../../../components/marquee/loop/index",
+    "card-intro":"../../../../components/card/intro/index"
+  }
+}

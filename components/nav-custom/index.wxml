@@ -1,0 +1,10 @@
+<view class="nav-custom">
+   <view class='nav-custom-left'>
+      <button wx:if="{{icon&&contact}}" open-type="contact" >
+        <image  src='../../images/icon/contact.png'/>
+      </button>
+      <image class='back' wx:if="{{icon&&!contact}}" src='../../images/icon/left.png' bindtap='_handleBack'/>
+   </view>
+   <view class='nav-custom-middle'>{{title}}</view>
+   <view class='nav-custom-right'></view>
+</view>

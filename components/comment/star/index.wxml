@@ -1,0 +1,9 @@
+<view class='comment-star' bind:select="chooseStar">
+    <text class='star-title'>{{title}}</text>
+    <block wx:for="{{starArry}}" wx:for-item="star" wx:key="item">
+       <image src='/images/icon/stara.png' bindtap='chooseStar'
+              data-id="{{star}}" wx:if="{{star>StarId}}" />
+       <image src='/images/icon/starb.png' bindtap='chooseStar'
+              data-id="{{star}}" wx:else/>
+    </block>
+  </view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "tab-click": "../../../../components/tab/click/index",
+    "card-slide": "../../../../components/card/intro/index"
+  }
+}

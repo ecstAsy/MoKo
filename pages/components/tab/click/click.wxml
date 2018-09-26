@@ -1,0 +1,6 @@
+<tab-click bind:select="handleTab">
+   {{content[ActiveId]}}
+  <card-slide
+    title="{{title}}"
+    content="{{cardContent}}"/>
+</tab-click>

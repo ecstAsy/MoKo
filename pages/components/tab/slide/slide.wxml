@@ -1,0 +1,6 @@
+<tab-slide bind:select="actionTab">
+  {{content[ActiveId]}}
+  <card-slide
+    title="{{title}}"
+    content="{{cardContent}}"/>
+</tab-slide>

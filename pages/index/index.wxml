@@ -1,0 +1,30 @@
+<view class="custom">
+  <image class='custom_logo' src='/images/logo.jpg' />
+</view>
+
+<view class='components'>
+  <block wx:for="{{Components}}" wx:key="index" wx:for-item="component">
+    <view class='component_box'>
+      <view class='component'>
+        <view class='component_name'>
+          <text class='{{component.active?"active":""}}'>{{component.name}}</text>
+        </view>
+        <view class='component_icon' data-id="{{component.id}}" bindtap='handleClick'>
+          <image src='/images/icon/nav.png' />
+        </view>
+      </view>
+      <view class='component_content {{component.active?"active":""}}'>
+        <block wx:for="{{component.list}}" wx:for-item="list" wx:key="index">
+          <view class='component_list'>
+            <view class='component_name'>
+              <text>{{list.name}}</text>
+            </view>
+            <navigator class='component_icon' url="{{list.url}}">
+              <image src='/images/icon/right.png' />
+            </navigator>
+          </view>
+        </block>
+      </view>
+    </view>
+  </block>
+</view>

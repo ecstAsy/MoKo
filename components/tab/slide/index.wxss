@@ -1,0 +1,38 @@
+.tab-slide{
+  padding-top: 108rpx;
+}
+.tab{
+  width: 100%;
+  height: 88rpx;
+  line-height: 88rpx;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  z-index: 999;
+}
+.tab_list{
+  flex: 1;
+  text-align: center;
+  font-size: 32rpx;
+  color: #666;
+}
+
+.tab_list.active{
+  color: #09a8bc;
+}
+
+.tab_list.active::after{
+  display: block;
+  content: "";
+  width: 50%;
+  margin-left: 25%;
+  height: 4rpx;
+  background:#09a8bc;
+}
+.content{
+  width: 90%;
+  padding: 0 5%;
+}

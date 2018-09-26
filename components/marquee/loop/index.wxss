@@ -1,0 +1,5 @@
+.marquee_text {
+  white-space: nowrap;
+  position: absolute;
+  bottom: 0;
+}

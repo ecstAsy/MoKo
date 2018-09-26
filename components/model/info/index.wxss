@@ -1,0 +1,74 @@
+.scope {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 40%;
+  background: #fff;
+  border-radius: 20rpx;
+  font-family: PingFangSC-Regular;
+  opacity: 1;
+}
+
+.scope_title {
+  text-align: center;
+  vertical-align: middle;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: #444;
+}
+
+.scope_content {
+  width: 80%;
+  height: 30%;
+  margin: 5% auto;
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #222;
+  text-align: center;
+}
+
+.scope_footer {
+  height: 30%;
+}
+
+.scope_footer button {
+  width: 50%;
+  height: 100%;
+  padding: 0;
+  display: inline-block;
+  background: transparent;
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #939ba4;
+  text-align: center;
+  border: none;
+  outline: medium;
+  border-radius: 0rpx;
+}
+
+.scope_footer button::after {
+  background: transparent;
+  border: none;
+  outline: medium;
+  border-top: 1rpx solid #939ba4;
+  border-radius: 0rpx;
+}
+
+.scope_footer button:last-of-type {
+  color: #09a8bc;
+}
+
+.scope_footer button:last-of-type::after {
+  border-left: 1rpx solid #939ba4;
+}
+
+@keyframes scope {
+  0%{
+    transform: scale(0)
+  }
+  100%{
+    transform: scale(2)
+  }
+}

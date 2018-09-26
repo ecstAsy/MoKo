@@ -1,0 +1,47 @@
+.nav-custom{
+  width: 90%;
+  padding: 0 5%;
+  display: flex;
+  height: 88rpx;
+  flex-direction: row;
+  background: #09a8bc;
+  margin-top: 50rpx;
+}
+.nav-custom-left,
+.nav-custom-middle,
+.nav-custom-right{
+  flex: 1;
+}
+.nav-custom-left image.back{
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: 14rpx;
+  vertical-align: middle;
+}
+
+.nav-custom-left button {
+  height: 88rpx;
+  background: transparent;
+  border: none;
+  border-radius: 0rpx;
+  outline: medium;
+  padding: 0;
+  text-align: left;
+}
+
+.nav-custom-left button::after {
+  background: transparent;
+  border: none;
+  border-radius: 0rpx;
+  outline: medium;
+}
+.nav-custom-left button image{
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: 14rpx;
+}
+.nav-custom-middle{
+  color: #fff;
+  font-size: 34rpx;
+  line-height: 88rpx;
+}

@@ -1,0 +1,5 @@
+<view class='marquee'>
+   <view class='marquee_text' style='{{orientation}}:{{marqueeDistance}}px;font-size: {{size}}px;'>
+      {{content}}
+   </view>
+</view>

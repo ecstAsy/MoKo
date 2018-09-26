@@ -1,0 +1,15 @@
+<nav-custom 
+    title="自定义"/>
+
+<nav-custom 
+    title="自定义+客服"
+    contact
+    icon/>
+
+<nav-custom 
+    title="自定义+返回"
+    icon/>
+    
+<card-intro
+    title="{{title}}"
+    content="{{content}}"/>

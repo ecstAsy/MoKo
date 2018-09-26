@@ -1,0 +1,7 @@
+<button class="phoneBtn" bindtap='Test'>手机号验证</button>
+<Mask mask="{{mask}}" 
+      background="rgba(0, 0, 0, .5)">
+   <model-phone bind:close="maskClose" bind:code="getPhoneCode"
+       bind:submit="formSubmitPhone"/>
+</Mask>
+<card-intro title="{{title}}" content="{{content}}"/>

@@ -1,0 +1,6 @@
+<view class="drag" wx:if="{{isShow}}"
+      animation="{{animationMain}}" catchtouchmove='menuMainMove' 
+      style='top:{{pos.top}}px;left:{{pos.left}}px;'>
+  <image src="../../images/logo.jpg"/>
+  <button type="button" open-type="contact" name="button"></button>
+</view>

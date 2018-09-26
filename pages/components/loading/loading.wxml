@@ -1,0 +1,29 @@
+<view class='button_box' >
+  <block wx:for="{{LoadingType}}" wx:for-item="list" wx:key="index">
+    <button data-id="{{index}}" bindtap='action'>{{list.name}}</button>
+  </block>
+</view>
+
+
+
+
+<Mask mask="{{LoadingType[0].Loading}}" 
+      background="rgba(255, 255, 255, .5)">
+   <loading-slide Loading="{{LoadingType[0].Loading}}"
+                  background="red"/>
+</Mask>
+<Mask mask="{{LoadingType[1].Loading}}" background="rgba(255, 255, 255, .5)">
+   <loading-dot Loading="{{LoadingType[1].Loading}}" />
+</Mask>
+<Mask mask="{{LoadingType[2].Loading}}" background="rgba(255, 255, 255, .5)">
+   <loading-circle Loading="{{LoadingType[2].Loading}}" />
+</Mask>
+<Mask mask="{{LoadingType[3].Loading}}" background="rgba(255, 255, 255, .5)">
+   <loading-circular Loading="{{LoadingType[3].Loading}}" />
+</Mask>
+<Mask mask="{{LoadingType[4].Loading}}" background="rgba(255, 255, 255, .5)">
+   <loading-square Loading="{{LoadingType[4].Loading}}" />
+</Mask>
+<card-intro 
+    title="{{title}}"
+    content="{{content}}"/>

@@ -1,0 +1,6 @@
+
+<Mask mask="{{mask}}" 
+      background="rgba(0, 0, 0, .5)">
+   <model-info bind:close="onCancel" bind:getInfo="onConfirm"/>
+</Mask>
+<card-intro title="{{title}}" content="{{content}}"/>

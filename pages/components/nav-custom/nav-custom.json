@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "nav-custom": "../../../components/nav-custom/index",
+    "card-intro": "../../../components/card/intro/index"
+  }
+}

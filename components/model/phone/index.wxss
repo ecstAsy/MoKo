@@ -1,0 +1,124 @@
+
+
+.draw {
+  width: 80%;
+  height: 40%;
+  margin: 0 auto;
+  margin-top: 30%;
+  background: #fff;
+  position: relative;
+  border-radius: 12rpx;
+  padding-bottom: 36rpx;
+}
+
+.draw_icon {
+  width: 36rpx;
+  height: 36rpx;
+  position: absolute;
+  z-index: 999;
+  right: 14rpx;
+  top: 14rpx;
+}
+
+.draw_title {
+  width: 100%;
+  font-size: 36rpx;
+  text-align: center;
+  font-family: "PingFang-SC-Bold";
+  padding-top: 48rpx;
+  color: #333;
+  margin-bottom: 66rpx;
+  font-weight: 600;
+}
+
+.draw_list {
+  width: 100%;
+  font-size: 25rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-top: 20rpx;
+}
+
+.draw_list_title {
+  float: left;
+  color: #939ba4;
+  margin-left: 10%;
+  width: 23%;
+}
+.draw_list .input-box{
+  display: inline-block;
+  vertical-align: middle;
+  border-bottom: 1rpx solid #e2e4e8;
+  width: 62%;
+}
+.draw_list input {
+  float: right;
+  vertical-align: middle;
+  width: 100%;
+  font-size: 32rpx;
+}
+
+.input-placeholder {
+  font-size: 32rpx;
+  color: #bdc7d2;
+  line-height: 60rpx;
+}
+
+.draw_list:first-of-type {
+  margin-bottom: 24rpx;
+}
+
+.draw_list:last-of-type {
+  margin-bottom: 70rpx;
+}
+
+.input-box{
+  position: relative;
+  padding-bottom:6rpx;
+}
+
+.getCode{
+  background: transparent;
+  border: none;
+  outline: medium;
+  color: #09a8bc;
+  font-size: 22rpx;
+  position: absolute;
+  right:0;
+  z-index: 10000;
+}
+
+.getCode::after{
+   border: none;
+   outline: medium;
+}
+
+.getCodeToast{
+  color: #BDC7D2;
+  font-size: 22rpx;
+  position: absolute;
+  right:0;
+  z-index: 10000;
+}
+
+.draw_btn_confim {
+  width: 80%;
+  height: 72rpx;
+  border-radius: 36rpx;
+  border: none;
+  outline: medium;
+  color: #fff;
+  font-size: 29rpx;
+  line-height: 72rpx;
+  background: linear-gradient(to right, #09a8bc 0, #ece3c5 100%);
+  box-shadow: 0rpx 10rpx 12rpx rgba(255, 170, 87, 0.35);
+}
+
+.draw_btn_confim::after {
+  border: none;
+  outline: medium;
+}
+
+.draw_btn_confim.active{
+  opacity: 0.2;
+}
