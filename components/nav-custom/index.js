@@ -11,6 +11,10 @@ Component({
     title:{
       type:String,
       value:''
+    },
+    background:{
+      type:String,
+      value:'#09a8bc'
     }
   },
   data: {

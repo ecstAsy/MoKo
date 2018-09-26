@@ -1,11 +1,11 @@
 .nav-custom{
   width: 90%;
-  padding: 0 5%;
+  padding: 60rpx 5% 0;
   display: flex;
   height: 88rpx;
   flex-direction: row;
-  background: #09a8bc;
-  margin-top: 50rpx;
+  margin-top: 30rpx;
+  z-index: 9999;
 }
 .nav-custom-left,
 .nav-custom-middle,
@@ -41,7 +41,10 @@
   margin-top: 14rpx;
 }
 .nav-custom-middle{
-  color: #fff;
   font-size: 34rpx;
   line-height: 88rpx;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
 }
