@@ -5,6 +5,6 @@
   </block>
 </view>
 
+<card-intro title="{{title}}" content="{{content}}"/>
 
-
-<picker-custom mask="{{pickerType[ActiveId].mask}}" dataSource="{{Citys}}" catch:select="onConfirm" bind:close="onClose"/>
+<picker-custom  mask="{{pickerType[pickerId].mask}}" dataSource="{{Citys}}" catch:select="onConfirm" bind:close="onClose"/>

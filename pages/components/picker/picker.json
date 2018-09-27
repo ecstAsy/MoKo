@@ -1,6 +1,7 @@
 {
   "usingComponents": {
     "Mask": "../../../components/mask/index",
-    "picker-custom": "../../../components/picker/custom/index"
+    "picker-custom": "../../../components/picker/custom/index",
+    "card-intro":"../../../components/card/intro/index"
   }
 }
