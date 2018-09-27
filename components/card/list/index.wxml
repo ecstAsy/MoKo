@@ -1,0 +1,3 @@
+<view class="list-simple {{animation?'active':''}}" style='animation:{{animation?"fadeIn 0.3s ease":""}}' bindtap="bindSelect" data-name="{{name}}">
+  {{name}}
+</view>

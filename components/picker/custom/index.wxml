@@ -1,0 +1,13 @@
+<Mask mask="{{mask}}" background="rgba(0,0,0,.5)" bind:close="onClose">
+  <view class='picker-custom' 
+        style='height:{{SystemInfo.windowHeight*0.45}}px'>
+    <picker-view class='Select_picker'  indicator-class="pickerIndictor" mask-class="pickerMask" value="{{value}}" bindchange="bindChange">
+      <text class='pickerCancel' catchtap='onClose'>取消</text>
+      <text class='pickerConfim' catchtap='bindConfim'>确定</text>
+      <picker-view-column>
+        <view class='Select_item {{ElevatorTypeIndex===index?"active":""}}' wx:for="{{dataSource}}" wx:key='index'
+              data-id="{{index}}">{{item}}</view>
+      </picker-view-column>
+    </picker-view>
+  </view>
+</Mask>

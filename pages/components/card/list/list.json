@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "card-intro": "../../../../components/card/intro/index",
+    "card-list":"../../../../components/card/list/index"
+  }
+}

@@ -1,2 +1,10 @@
-<!--pages/components/picker/picker.wxml-->
-<text>pages/components/picker/picker.wxml</text>
+
+<view class='button_box' >
+  <block wx:for="{{pickerType}}" wx:for-item="list" wx:key="index">
+    <button data-id="{{index}}" bindtap='action'>{{list.name}}</button>
+  </block>
+</view>
+
+
+
+<picker-custom mask="{{pickerType[ActiveId].mask}}" dataSource="{{Citys}}" catch:select="onConfirm" bind:close="onClose"/>

@@ -31,6 +31,9 @@ Page({
         }, {
           name: '卡券模型',
           url: '/pages/components/card/shadow/shadow'
+        }, {
+          name: '单排选择',
+          url: '/pages/components/card/list/list'
         }
       ]
     },{

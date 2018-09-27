@@ -1,0 +1,11 @@
+
+<block wx:for="{{dataSource}}" wx:for-item="item" wx:key="index">
+  <card-list name="{{item.name}}" bind:select="onSelectItem" data-id="{{index}}"/>
+  <view wx:if="{{item.active}}"> 
+    <block wx:for="{{item.lists}}" wx:for-item="list" wx:key="index">
+      <card-list animation name="{{list}}" bind:select="onSelectList"/>
+    </block>
+  </view>
+</block>
+<view class='active'>{{active.province + ' ' + active.city}}</view>
+<card-intro title="{{title}}" content="{{content}}"/>
