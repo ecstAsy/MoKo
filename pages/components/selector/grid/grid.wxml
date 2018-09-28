@@ -1,0 +1,8 @@
+<view class='grid_title'>Grid</view>
+<Grid dataSource="{{gridData}}"/>
+
+
+
+
+
+<card-intro title="{{title}}" content="{{content}}"/>

@@ -106,7 +106,10 @@ Page({
         list: [
           {
             name: 'picker选择',
-            url: '/pages/components/picker/picker'
+            url: '/pages/components/selector/picker/picker'
+          }, {
+            name: '九宫格',
+            url: '/pages/components/selector/grid/grid'
           }
         ]
       }]

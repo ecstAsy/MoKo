@@ -1,0 +1,35 @@
+.grid{
+  width: 100%;
+}
+
+.grid_list{
+  width: 33.333333333333%;
+  height: 33.333333333333%;
+  color: #09a8bc;
+  text-align: center;
+  border: 1rpx solid #ccc;
+  float: left;
+  box-sizing: border-box;
+}
+
+navigator:hover{
+  background: transparent;
+}
+.grid_list_content{
+  width: 50%;
+  height: 50%;
+  margin: 25%;
+}
+.grid_list_icon{
+  display: block;
+  width: 60%;
+  height: 60%;
+  margin: 0 auto;
+}
+.grid_list_txt{
+  display: block;
+  width: 100%;
+  height: 40%;
+  text-align: center;
+  font-size: 32rpx;
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "picker-custom": "../../../../components/selector/picker-custom/index",
+    "card-intro":"../../../../components/card/intro/index"
+  }
+}

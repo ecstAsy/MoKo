@@ -1,0 +1,10 @@
+<view class="grid" style='height:{{SystemInfo.windowWidth}}px'>
+  <block wx:for="{{dataSource}}" wx:for-item="list" wx:key="index">
+    <navigator class='grid_list' url="{{list.url}}">
+      <view class='grid_list_content'>
+        <image class='grid_list_icon' src='/images/logo.jpg' />
+        <text class='grid_list_txt'>{{list.name}}</text>
+      </view>
+    </navigator>
+  </block>
+</view>

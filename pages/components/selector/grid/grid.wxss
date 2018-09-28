@@ -1,0 +1,7 @@
+.grid_title{
+  width: 70%;
+  padding:100rpx 15%;
+  font-size: 38rpx;
+  color: #09a8bc;
+  font-weight: 700;
+}

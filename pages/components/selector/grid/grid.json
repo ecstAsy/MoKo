@@ -1,0 +1,6 @@
+{
+  "usingComponents":{
+    "Grid":"../../../../components/selector/grid/index",
+    "card-intro":"../../../../components/card/intro/index"
+  }
+}
