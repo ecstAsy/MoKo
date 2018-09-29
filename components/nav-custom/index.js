@@ -19,14 +19,22 @@ Component({
   },
   data: {
     pos: {},
-    SYSTEMINFO: ''
+    statusBarHeight: 0,
+    titleBarHeight:0
   },
   ready() {
     let that = this
     wx.getSystemInfo({
-      success: function (res) {
+      success:  (res)=> {
+        let totalTopHeight = 68
+        if (res.model.indexOf('iPhone X') !== -1) {
+          totalTopHeight = 88
+        } else if (res.model.indexOf('iPhone') !== -1) {
+          totalTopHeight = 64
+        }
         that.setData({
-          SYSTEMINFO: res
+          statusBarHeight: res.statusBarHeight,
+          titleBarHeight: totalTopHeight - res.statusBarHeight
         })
       }
     })

@@ -1,0 +1,4 @@
+<view class="list-simple" style='animation:{{animation?"fadeIn 0.3s ease":""}}' bindtap="bindSelect" data-id="{{content.lyId}}">
+   <text class='list-simple-txt'>{{content.model+' '+content.type}}</text>
+   <text class='list-simple-intro'>{{content.salesName}}</text>
+</view>

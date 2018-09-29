@@ -1,0 +1,4 @@
+<view class="list-simple" style='animation:{{animation?"fadeIn 0.3s ease":""}}' bindtap="bindSelect" data-name="{{name}}">
+   <image class='list-simple-icon' src='{{Image}}' wx:if="{{Image}}"/>
+   <text class='list-simple-txt'>{{name}}</text>
+</view>

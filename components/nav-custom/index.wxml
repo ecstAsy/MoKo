@@ -1,10 +1,23 @@
+<view style='padding-top:{{statusBarHeight+titleBarHeight}}px'></view>
 <view class="nav-custom" style='background:{{background}}'>
-   <view class='nav-custom-left'>
+  <view class='nav-custom-status-bar' 
+        style="height:{{statusBarHeight}}px"></view>
+  <view class='nav-custom-bar' style="height:{{titleBarHeight}}px">
+  <view class='nav-custom-bar-left'>
       <button wx:if="{{icon&&contact}}" open-type="contact" >
-        <image  src='../../images/icon/contact.png'/>
+        <image mode='widthFix' src='../../images/icon/contact.png'/>
       </button>
-      <image class='back' wx:if="{{icon&&!contact}}" src='../../images/icon/left.png' bindtap='_handleBack'/>
+      <button wx:if="{{icon&&!contact}}" bindtap="_handleBack">
+        <image mode='widthFix' src='../../images/icon/left.png'/>
+      </button>
    </view>
-   <view class='nav-custom-middle'>{{title}}</view>
-   <view class='nav-custom-right'></view>
+   <view class='nav-custom-bar-middle'>
+      <button style='line-height="{{titleBarHeight}}px"'>
+        <text>{{title}}</text>
+      </button>
+   </view>
+   <view class='nav-custom-bar-right'></view>
+  </view>
 </view>
+
+
