@@ -5,7 +5,7 @@
     "pages/components/tab/slide/slide",
     "pages/components/tab/click/click",
     "pages/components/card/intro/intro",
-    "pages/components/card/shadow/shadow",
+    "pages/components/card/space/space",
     "pages/components/card/list/list",
     "pages/components/loading/loading",
     "pages/components/mask/mask",

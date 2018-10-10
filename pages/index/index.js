@@ -29,8 +29,8 @@ Page({
           name:'内容介绍',
           url:'/pages/components/card/intro/intro'
         }, {
-          name: '卡券模型',
-          url: '/pages/components/card/shadow/shadow'
+          name: '卡片留白',
+          url: '/pages/components/card/space/space'
         }, {
           name: '单排选择',
           url: '/pages/components/card/list/list'

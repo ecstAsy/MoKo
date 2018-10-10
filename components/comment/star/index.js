@@ -3,20 +3,18 @@ Component({
     title:{
       type:String,
       value:''
+    },
+    StarId:{
+      type:Number,
+      value:0
     }
   },
   data: {
-    starArry:[1,2,3,4,5],
-    StarId:0
+    starArry:[1,2,3,4,5]
   },
   methods: {
     chooseStar(event){
-      let that = this,
-        StarId = event.currentTarget.dataset.id;
-      console.log(StarId)
-      that.setData({
-        StarId
-      })
+      let  StarId = event.currentTarget.dataset.id;
       this.triggerEvent('select', StarId);
     }
   }
