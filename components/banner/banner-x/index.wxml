@@ -1,0 +1,9 @@
+<view class='banner' style='height:{{height}}px'>
+  <swiper class='swiper' autoplay circular>
+    <block wx:for="{{imgArry}}" wx:key="{{index}}" wx:for-item="img">
+      <swiper-item class='swiperItem' data-id="{{index}}" bindtap="onSelect">
+        <image class='swiperImg' src='{{img}}' />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

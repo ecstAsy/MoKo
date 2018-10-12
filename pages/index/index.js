@@ -112,6 +112,26 @@ Page({
             url: '/pages/components/selector/grid/grid'
           }
         ]
+      }, {
+        id: 11,
+        name: '二维码制作器',
+        active: false,
+        list: [
+          {
+            name: '二维码展示',
+            url: '/pages/components/QRcode/QRcode'
+          }
+        ]
+      }, {
+        id: 12,
+        name: 'Banner',
+        active: false,
+        list: [
+          {
+            name: 'Banner展示',
+            url: '/pages/components/banner/banner'
+          }
+        ]
       }]
   },
   onLoad() {

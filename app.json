@@ -15,7 +15,9 @@
     "pages/components/model/phone/phone",
     "pages/components/model/info/info",
     "pages/components/selector/picker/picker",
-    "pages/components/selector/grid/grid"
+    "pages/components/selector/grid/grid",
+    "pages/components/QRcode/QRcode",
+    "pages/components/banner/banner"
   ],
   "window":{
     "backgroundTextStyle":"light",

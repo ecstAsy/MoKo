@@ -1,0 +1,4 @@
+<Banner-X imgArry="{{imgUrl}}" bind:select="onSelect"/>
+<Card-intro title="横向滚动Banner图" content="点击每一张banner图，可跳转对应图片广告"/>
+<Banner-Y txtArry="{{txtContent}}" bind:select="onSelect"/>
+<Card-intro title="纵向滚动Banner图" content="点击每一张banner图，可跳转对应图片广告"/>

@@ -24,6 +24,9 @@
 <Mask mask="{{LoadingType[4].Loading}}" background="rgba(255, 255, 255, .5)">
    <loading-square Loading="{{LoadingType[4].Loading}}" />
 </Mask>
+<Mask mask="{{LoadingType[5].Loading}}" background="rgba(255, 255, 255, .5)">
+   <loading-ring Loading="{{LoadingType[5].Loading}}" />
+</Mask>
 <card-intro 
     title="{{title}}"
     content="{{content}}"/>

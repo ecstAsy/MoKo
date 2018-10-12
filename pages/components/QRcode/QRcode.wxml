@@ -1,0 +1,8 @@
+
+<image src='{{imagePath}}'/>
+
+<view class="canvas-box">
+  <canvas style="width: 750rpx;height: 750rpx;background:#f1f1f1;"
+          canvas-id="mycanvas"/>
+</view>
+<card-intro title="{{title}}" content="{{content}}"/>

@@ -15,6 +15,9 @@ Page({
       }, {
         name: 'square',
         Loading: false
+      }, {
+        name: 'ring',
+        Loading: false
       }],
     title:"loading...",
     content:"页面加载过程中动画衔接，需要动画时，设置Loading为true即可显示动画，可结合mask一起使用"

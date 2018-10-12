@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "Banner-X": "../../../components/banner/banner-x/index",
+    "Banner-Y":"../../../components/banner/banner-y/index",
+    "Card-intro":"../../../components/card/intro/index"
+  }
+}

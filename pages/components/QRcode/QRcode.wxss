@@ -1,0 +1,12 @@
+image{
+  display: block;
+  width: 320rpx;
+  height: 320rpx;
+  margin: 0 auto;
+}
+
+.canvas-box{
+  position: fixed;
+  display: -99;
+  top: -9999999rpx;
+}

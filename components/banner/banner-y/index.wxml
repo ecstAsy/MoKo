@@ -1,0 +1,9 @@
+<view class='banner' style='height:{{height}}rpx'>
+  <swiper class='swiper' autoplay circular vertical>
+    <block wx:for="{{txtArry}}" wx:key="{{index}}" wx:for-item="txt">
+      <swiper-item class='swiperItem' data-id="{{index}}" bindtap="onSelect">
+        <text style='line-height:{{height}}rpx'>{{txt}}</text>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

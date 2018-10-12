@@ -1,0 +1,19 @@
+Page({
+  data:{
+    imgUrl:[
+      '/images/img/banner.jpg',
+      '/images/img/banner.jpg'
+    ],
+    txtContent:[
+      'aaaaaaaaaaaabbbbbbbbbbccccccccc', 
+      'aaaaaaaaaaaabbbbbbbbbbccccccccc',
+      'aaaaaaaaaaaabbbbbbbbbbccccccccc'
+    ]
+  },
+  onLoad(options){
+    
+  },
+  onSelect(e){
+    console.log(e.detail)
+  }
+})

@@ -5,6 +5,7 @@
     "loading-circle":"../../../../components/loading/circle/index",
     "loading-circular": "../../../../components/loading/circular/index",
     "loading-square": "../../../../components/loading/square/index",
+    "loading-ring":"../../../../components/loading/ring/index",
     "Mask":"../../../../components/mask/index",
     "card-intro": "../../../../components/card/intro/index"
   }
