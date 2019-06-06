@@ -28,3 +28,51 @@
     </view>
   </block>
 </view>
+
+
+ <!-- <view class='list'>
+  <swiper indicator-dots="{{true}}" autoplay="{{false}}" previous-margin="{{'140rpx'}}" next-margin="{{'140rpx'}}" bindchange="swiperChange">
+    <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image {{swiperIndex == index ? 'active' : ''}}"/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view> -->
+
+
+<swiper previous-margin='50px'  next-margin='50px' bindchange="swiperChange" style='height:{{swiperH}};'>
+    <swiper-item wx:for='{{imgList}}' wx:key=''>
+        <image class='le-img {{nowIdx==index?"le-active":""}}' bindload='getHeight' src='{{item}}' style='height:{{swiperH}};'></image>
+    </swiper-item>
+</swiper>
+
+
+<block>
+  <label for='9'>
+    <label for='8'>
+      <label for='7'>
+        <label for='6'>
+          <label for='5'>
+            <label for='4'>
+              <label for='3'>
+                <label for='2'>
+                  <label for='1'>
+                    <label for='0'>
+                     点击
+                    </label>
+                  </label>
+                </label>
+              </label>
+            </label>
+          </label>
+        </label>
+      </label>
+    </label>
+  </label>
+  <block wx:for="{{[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:key="{{item}}">
+    <form report-submit bindsubmit="handleCollect">
+      <button id="{{item}}" form-type='submit' />
+    </form>
+  </block>
+</block>

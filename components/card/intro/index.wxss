@@ -19,4 +19,5 @@
   text-indent: 50rpx;
   font-size: 30rpx;
   color: #09a8bc;
+  font-family:'kaiti';
 }

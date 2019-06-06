@@ -6,6 +6,7 @@
   border-radius: 50%;
   overflow: hidden;
   margin: 50rpx auto 0;
+
 }
 
 .custom_logo{
@@ -78,4 +79,38 @@
     opacity: 1;
     transform: translateY(0%)
   }
+}
+
+/* swiper{
+  width: 750rpx;
+  height: 900rpx;
+}
+swiper-item{
+  padding-top: 100rpx;
+}
+image{
+  width: 375rpx;
+  height: 667rpx;
+  position: absolute;
+  left: 50%;
+  margin-left: -188rpx;
+}
+image.active{
+  transform: scale(1.14);
+  transition:all .2s ease-in 0s;
+} */
+
+
+swiper {
+  padding-top: 30px;
+}
+.le-img {
+  width: 100%;
+  display: block;
+  transform: scale(0.8);
+  transition: all 0.3s ease;
+  border-radius: 6px;
+}
+.le-img.le-active {
+  transform: scale(1);
 }

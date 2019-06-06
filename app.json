@@ -1,5 +1,5 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/components/nav-custom/nav-custom",
     "pages/components/tab/slide/slide",
@@ -19,10 +19,11 @@
     "pages/components/QRcode/QRcode",
     "pages/components/banner/banner"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#09a8bc",
     "navigationBarTitleText": "自定义组件库",
-    "navigationBarTextStyle":"white"
-  }
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
 }
